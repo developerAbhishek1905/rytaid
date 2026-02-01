@@ -94,7 +94,7 @@ export const createClient = async (req, res) => {
         companyWebsite,
         address,
         streetAdreess1,
-        streetAdreess2,
+    //    streetAdreess2,
         country,
         state,
         city,
