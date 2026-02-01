@@ -34,10 +34,10 @@ const clientSchema = new mongoose.Schema(
         type: String,
         required: true,
       },
-      streetAdreess2: {
-        type: String,
-        required: true,
-      },
+      // streetAdreess2: {
+      //   type: String,
+      //   required: true,
+      // },
       country: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Country",
